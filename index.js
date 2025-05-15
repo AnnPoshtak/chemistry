@@ -7,8 +7,9 @@ async function balanceEquation() {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: {
-            "Authorization": "Bearer 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\n" +
-                "\n",
+            "Authorization": "Bearer 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\n" +
+                "\n"
+            ,
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
